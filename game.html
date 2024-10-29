@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russian Roulette</title>
+    <link rel="stylesheet" href="game.css"> <!--Link for the css file for game page-->
+    <script src = "game.js"> </script> <!--Link for the Javascript file for game page-->
+</head>
+<body>
+    <button onclick = "playRR()"> Spin </button>  
+<!--Start button-->
+<!--The buttom customization-->
+    <style>
+        button {
+            font-size: 50px;
+            font-style: oblique; 
+            color: gold;
+        }
+        body {
+                background-image:url(game-background.jpg);
+                background-size: cover; /*This ensures the image covers the entire background */
+                background-repeat: no-repeat; /* This prevents the image from repeating */
+                background-attachment: fixed; /* This makes the background image fixed when scrolling */
+            }
+    </style> <!--Player image location -->
+    <p> PLAYER </p>
+    <image id ="playerImg" src = "safe-Image.jpg"></image>
+
+    <p> Weapon </p> 
+    <image id ="bangImg" src = "weapon-Image.jpg"> </image>
+    
+    <p id = "finalResult"> Results </p> <!--Final result image location-->
+</body>
+</html>
